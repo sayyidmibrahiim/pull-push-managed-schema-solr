@@ -1,4 +1,16 @@
+<div align="center">
+
 # Solr Managed Schema Pull / Push Automation
+
+**Pull, back up, and push managed-schema changes across SolrCloud configsets.**
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square) ![Apache Solr](https://img.shields.io/badge/Apache_Solr-e18536?style=flat-square) ![Status-Historical](https://img.shields.io/badge/Status-Historical-64748b?style=flat-square)
+
+[Motivation](#why-i-built-it) · [Workflow](#what-the-script-actually-does) · [Limitations](#important-limitations) · [Improvements](#what-i-would-change-today)
+
+</div>
+
+---
 
 A small Bash utility I built to reduce repetitive Apache SolrCloud work when handling `managed-schema` files across multiple configsets.
 
